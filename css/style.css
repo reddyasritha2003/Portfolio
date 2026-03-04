@@ -10658,3 +10658,7 @@ text-decoration: none;
 .section-title::before {
     display: none !important;
 }
+  section::before {
+    display: none !important;
+    content: none !important;
+}
