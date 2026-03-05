@@ -11012,3 +11012,58 @@ margin-bottom:12px;
 line-height:1.7;
 color:#d0d0d0;
 }
+/* FORCE EXPERIENCE CARD STYLE */
+
+#Professional\ Journey-section .resume-wrap{
+max-width:950px !important;
+margin:50px auto !important;
+padding:45px 60px !important;
+background:#111 !important;
+border-radius:14px !important;
+box-shadow:0 10px 30px rgba(0,0,0,0.6) !important;
+text-align:center !important;
+}
+
+/* date */
+#Professional\ Journey-section .resume-wrap .date{
+font-size:30px !important;
+font-weight:700 !important;
+color:#e6d5b8 !important;
+display:block !important;
+margin-bottom:15px !important;
+}
+
+/* role */
+#Professional\ Journey-section .resume-wrap h2{
+font-size:24px !important;
+font-weight:600 !important;
+margin-bottom:8px !important;
+}
+
+/* company */
+#Professional\ Journey-section .resume-wrap .position{
+display:block !important;
+font-size:18px !important;
+color:#d4c4a8 !important;
+margin-bottom:25px !important;
+}
+
+/* description */
+#Professional\ Journey-section .resume-wrap p{
+color:#bfbfbf !important;
+margin-bottom:25px !important;
+}
+
+/* bullets */
+#Professional\ Journey-section .resume-wrap ul{
+max-width:780px !important;
+margin:0 auto !important;
+text-align:left !important;
+padding-left:20px !important;
+}
+
+#Professional\ Journey-section .resume-wrap ul li{
+margin-bottom:12px !important;
+line-height:1.7 !important;
+color:#d0d0d0 !important;
+}
