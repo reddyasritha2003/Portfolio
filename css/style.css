@@ -10904,3 +10904,58 @@ margin:8px !important;
 }
 
 }
+/* EXPERIENCE CARD DESIGN */
+
+.resume-wrap{
+max-width:900px;
+margin:40px auto;
+padding:40px;
+background:#111;
+border-radius:12px;
+box-shadow:0 8px 30px rgba(0,0,0,0.6);
+text-align:center;
+}
+
+/* date */
+.resume-wrap .date{
+display:block;
+font-size:28px;
+font-weight:700;
+color:#e6d5b8;
+margin-bottom:10px;
+}
+
+/* role */
+.resume-wrap h2{
+font-size:24px;
+font-weight:600;
+margin-bottom:8px;
+}
+
+/* company */
+.resume-wrap .position{
+display:block;
+font-size:18px;
+color:#d4c4a8;
+margin-bottom:20px;
+}
+
+/* description */
+.resume-wrap p{
+color:#bfbfbf;
+margin-bottom:25px;
+}
+
+/* bullet points */
+.resume-wrap ul{
+max-width:750px;
+margin:0 auto;
+text-align:left;
+padding-left:20px;
+}
+
+.resume-wrap ul li{
+margin-bottom:12px;
+line-height:1.7;
+color:#cfcfcf;
+}
