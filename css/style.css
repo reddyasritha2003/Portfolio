@@ -10921,3 +10921,25 @@ font-size:32px !important;
 }
 
 }
+/* ===== MOBILE PORTFOLIO FIX ===== */
+
+@media (max-width:768px){
+
+.resume-wrap{
+width:95% !important;
+margin:20px auto !important;
+padding:25px !important;
+}
+
+.col-lg-5,
+.col-md-6,
+.col-md-4{
+max-width:100% !important;
+flex:0 0 100% !important;
+}
+
+.heading-section h2{
+font-size:28px !important;
+}
+
+}
