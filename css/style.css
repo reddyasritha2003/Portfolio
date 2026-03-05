@@ -10740,3 +10740,35 @@ padding-right:20px;
 }
 
 }
+/* MOBILE FIX */
+@media (max-width:768px){
+
+.container{
+width:95%;
+margin:auto;
+padding:0 10px;
+}
+
+.resume-wrap{
+width:100%;
+margin:20px auto;
+padding:25px;
+border-radius:12px;
+}
+
+.resume-wrap h2{
+font-size:22px;
+text-align:center;
+}
+
+.resume-wrap h3{
+font-size:18px;
+text-align:center;
+}
+
+.resume-wrap p{
+font-size:14px;
+text-align:center;
+}
+
+}
