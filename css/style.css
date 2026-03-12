@@ -11446,6 +11446,47 @@ white-space:normal !important;
 }
 
 }
+/* ===== MOBILE HERO FIX ===== */
+
+@media (max-width:768px){
+
+  .slider-text{
+    flex-direction: column !important;
+    text-align:center !important;
+  }
+
+  .slider-text .one-third{
+    width:100% !important;
+    max-width:100% !important;
+    height:250px !important;
+    margin-bottom:20px !important;
+    background-size:contain !important;
+    background-position:center !important;
+    background-repeat:no-repeat !important;
+  }
+
+  .slider-text .one-forth{
+    width:100% !important;
+    max-width:100% !important;
+    padding:20px !important;
+  }
+
+  .slider-text h1{
+    font-size:26px !important;
+  }
+
+  #typing-animation{
+    font-size:18px !important;
+    white-space:normal !important;
+  }
+
+  .hero .btn{
+    display:block !important;
+    width:80% !important;
+    margin:8px auto !important;
+  }
+
+}
 
 
 
