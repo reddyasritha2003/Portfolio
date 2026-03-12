@@ -11598,33 +11598,31 @@ body .hero .btn{
 
 }
 
-/* ===== HERO MOBILE ORDER FIX ===== */
+/* ===== FORCE HERO ORDER ON MOBILE ===== */
 
-@media (max-width:768px){
+@media only screen and (max-width:768px){
 
-.home-slider .slider-item .slider-text{
+.home-slider .slider-item .row{
   display:flex !important;
   flex-direction:column !important;
   align-items:center !important;
-  text-align:center !important;
 }
 
-/* TEXT FIRST */
+/* text first */
 .home-slider .slider-item .one-forth{
   order:1 !important;
   width:100% !important;
+  text-align:center !important;
 }
 
-/* IMAGE SECOND */
+/* image second */
 .home-slider .slider-item .one-third{
   order:2 !important;
   width:100% !important;
   height:240px !important;
-  margin:20px 0 !important;
+  margin-top:20px !important;
   background-size:contain !important;
   background-position:center !important;
 }
 
 }
-
-
