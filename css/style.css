@@ -11665,3 +11665,36 @@ body .hero .btn{
 }
 
 }
+  /* ===== MOBILE HERO IMAGE FIRST ===== */
+
+@media (max-width:768px){
+
+.row.d-md-flex{
+    display:flex !important;
+    flex-direction:column !important;
+    align-items:center !important;
+    text-align:center !important;
+}
+
+/* IMAGE FIRST */
+.one-third.hero-img{
+    order:1 !important;
+    width:220px !important;
+    height:220px !important;
+    margin-bottom:25px !important;
+    background-size:cover !important;
+    background-position:center !important;
+}
+
+/* TEXT AFTER IMAGE */
+.one-forth{
+    order:2 !important;
+    width:100% !important;
+}
+
+/* REMOVE EXTRA SPACE */
+.js-fullheight{
+    height:auto !important;
+}
+
+}
