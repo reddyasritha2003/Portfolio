@@ -11265,3 +11265,43 @@ margin-bottom:30px;
 
 }
   
+/* ===== MOBILE FIX ===== */
+
+/* Phones */
+@media screen and (max-width:768px){
+
+  .slider-text{
+    display:flex !important;
+    flex-direction:column !important;
+    align-items:center !important;
+    text-align:center !important;
+  }
+
+  .one-third.hero-img{
+    order:-1 !important;
+    width:220px !important;
+    height:220px !important;
+    margin:20px auto !important;
+    border-radius:50% !important;
+    background-size:cover !important;
+    background-position:center !important;
+  }
+
+  .one-forth{
+    width:100% !important;
+  }
+
+}
+
+/* Very small phones */
+@media screen and (max-width:480px){
+
+  .slider-text h1{
+    font-size:26px !important;
+  }
+
+  #typing-animation{
+    font-size:16px !important;
+  }
+
+}
