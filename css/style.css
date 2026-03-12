@@ -11415,5 +11415,37 @@ font-size:20px !important;
 }
 
 }
+  @media (max-width:768px){
+
+/* disable scroll animation that causes overlap */
+.slider-text [data-scrollax]{
+transform: none !important;
+}
+
+/* stack hero vertically */
+.slider-text{
+display:flex !important;
+flex-direction:column !important;
+align-items:center !important;
+text-align:center !important;
+}
+
+.slider-text .one-forth{
+width:100% !important;
+order:1;
+}
+
+.slider-text .one-third{
+width:100% !important;
+order:2;
+height:auto !important;
+}
+
+#typing-animation{
+white-space:normal !important;
+}
+
+}
+
 
 
