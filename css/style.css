@@ -11228,46 +11228,8 @@ margin-bottom:30px;
   white-space: normal;
   display: block;
 }
-  /* ===== Perfect Mobile Hero Layout ===== */
-@media screen and (max-width: 768px) {
+/* ===== CLEAN MOBILE HERO FIX ===== */
 
-  .home-slider .slider-item .row{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    text-align:center;
-  }
-
-  .hero-img{
-    order:-1;
-    width:220px;
-    height:220px;
-    border-radius:50%;
-    margin-top:20px;
-    margin-bottom:20px;
-    background-size:cover !important;
-    background-position:center !important;
-  }
-
-  .slider-text h1{
-    font-size:30px;
-  }
-
-  #typing-animation{
-    font-size:18px;
-  }
-
-  .hero .btn{
-    width:80%;
-    margin:8px auto;
-    display:block;
-  }
-
-}
-  
-/* ===== MOBILE FIX ===== */
-
-/* Phones */
 @media screen and (max-width:768px){
 
   .slider-text{
@@ -11277,114 +11239,41 @@ margin-bottom:30px;
     text-align:center !important;
   }
 
-  .one-third.hero-img{
-    order:-1 !important;
-    width:220px !important;
-    height:220px !important;
-    margin:20px auto !important;
-    border-radius:50% !important;
-    background-size:cover !important;
+  .hero-img{
+    width:100% !important;
+    height:300px !important;
+    background-size:contain !important;
     background-position:center !important;
+    background-repeat:no-repeat !important;
+    margin-bottom:30px;
   }
 
   .one-forth{
     width:100% !important;
   }
 
-}
-
-/* Very small phones */
-@media screen and (max-width:480px){
-
   .slider-text h1{
-    font-size:26px !important;
+    font-size:28px !important;
   }
 
   #typing-animation{
-    font-size:16px !important;
+    font-size:18px !important;
+  }
+
+  .hero .btn{
+    width:80%;
+    margin:8px auto;
+    display:block;
   }
 
 }
-/* ===== PROFILE IMAGE ===== */
-.profile-img{
-  width:380px;
-  border-radius:50%;
-}
 
-/* ===== MOBILE FIX ===== */
-@media screen and (max-width:768px){
+/* very small phones */
 
-  .slider-text{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    text-align:center;
-  }
+@media screen and (max-width:480px){
 
-  .hero-img{
-    order:-1;
-    margin-bottom:20px;
-  }
-
-  .profile-img{
-    width:220px;
-  }
-
-}
-/* ===== DESKTOP IMAGE ===== */
-.profile-img{
-  width:420px;
-  max-width:100%;
-  border-radius:50%;
-}
-
-/* ===== MOBILE FIX ===== */
-@media (max-width:768px){
-
-  .slider-text{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    text-align:center;
-  }
-
-  .hero-img{
-    order:-1;
-    margin-bottom:20px;
-  }
-
-  .profile-img{
-    width:220px;
-  }
-
-}
-/* PROFILE IMAGE STYLE */
-
-.profile-img{
-  width:450px;
-  max-width:100%;
-  border-radius:50%;
-  object-fit:cover;
-}
-
-/* MOBILE FIX */
-
-@media (max-width:768px){
-
-  .slider-text{
-    flex-direction:column !important;
-    align-items:center !important;
-    text-align:center;
-  }
-
-  .one-third{
-    order:-1;
-    width:100%;
-    margin-bottom:20px;
-  }
-
-  .profile-img{
-    width:220px;
+  .slider-text h1{
+    font-size:24px !important;
   }
 
 }
