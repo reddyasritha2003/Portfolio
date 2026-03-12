@@ -11290,3 +11290,31 @@ margin-bottom:30px;
 }
 
 }
+/* FORCE MOBILE STACK FIX */
+
+@media (max-width:768px){
+
+.owl-carousel.home-slider .slider-item .slider-text{
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:center !important;
+  text-align:center !important;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .one-third{
+  width:100% !important;
+  order:2 !important;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .one-forth{
+  width:100% !important;
+  order:1 !important;
+}
+
+.hero-img{
+  height:260px !important;
+  background-size:contain !important;
+  background-position:center !important;
+}
+
+}
