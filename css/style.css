@@ -11228,4 +11228,40 @@ margin-bottom:30px;
   white-space: normal;
   display: block;
 }
+  /* ===== Perfect Mobile Hero Layout ===== */
+@media screen and (max-width: 768px) {
+
+  .home-slider .slider-item .row{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+  }
+
+  .hero-img{
+    order:-1;
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    margin-top:20px;
+    margin-bottom:20px;
+    background-size:cover !important;
+    background-position:center !important;
+  }
+
+  .slider-text h1{
+    font-size:30px;
+  }
+
+  #typing-animation{
+    font-size:18px;
+  }
+
+  .hero .btn{
+    width:80%;
+    margin:8px auto;
+    display:block;
+  }
+
+}
   
