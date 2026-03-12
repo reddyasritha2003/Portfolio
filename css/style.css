@@ -11598,6 +11598,33 @@ body .hero .btn{
 
 }
 
+/* ===== HERO MOBILE ORDER FIX ===== */
 
+@media (max-width:768px){
+
+.home-slider .slider-item .slider-text{
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:center !important;
+  text-align:center !important;
+}
+
+/* TEXT FIRST */
+.home-slider .slider-item .one-forth{
+  order:1 !important;
+  width:100% !important;
+}
+
+/* IMAGE SECOND */
+.home-slider .slider-item .one-third{
+  order:2 !important;
+  width:100% !important;
+  height:240px !important;
+  margin:20px 0 !important;
+  background-size:contain !important;
+  background-position:center !important;
+}
+
+}
 
 
