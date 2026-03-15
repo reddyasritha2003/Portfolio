@@ -9980,3 +9980,37 @@ box-shadow:0 20px 40px rgba(0,0,0,0.5);
 .skills-row .col-lg-4{
 display:flex;
 }
+/* Make skill cards same size */
+
+.skills-row{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.skill-card{
+background:#111;
+border-radius:15px;
+padding:30px;
+height:220px;        /* same height for all cards */
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+/* Make project images same size */
+
+.blog-entry .block-20{
+height:220px;          /* same height for all project images */
+background-size:cover;
+background-position:center;
+border-radius:10px;
+}
+
+/* Fix project card layout */
+.blog-entry{
+height:100%;
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+}
