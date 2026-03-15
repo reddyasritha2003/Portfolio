@@ -9980,7 +9980,7 @@ box-shadow:0 20px 40px rgba(0,0,0,0.5);
 .skills-row .col-lg-4{
 display:flex;
 }
-/* Make skill cards same size */
+/* SKILLS CARD FIX */
 
 .skills-row{
 display:flex;
@@ -9992,25 +9992,44 @@ justify-content:center;
 background:#111;
 border-radius:15px;
 padding:30px;
-height:220px;        /* same height for all cards */
+height:240px !important;
 display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
+text-align:center;
 }
-/* Make project images same size */
+.skill-card h4{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:10px;
+font-size:22px;
+}
+/* PROJECT IMAGE SIZE FIX */
 
 .blog-entry .block-20{
-height:220px;          /* same height for all project images */
-background-size:cover;
-background-position:center;
+height:220px !important;
+background-size:cover !important;
+background-position:center !important;
 border-radius:10px;
 }
 
-/* Fix project card layout */
 .blog-entry{
-height:100%;
 display:flex;
 flex-direction:column;
 justify-content:space-between;
+height:100%;
+}
+@media (max-width:768px){
+
+.skill-card{
+height:220px !important;
+margin-bottom:20px;
+}
+
+.blog-entry .block-20{
+height:180px !important;
+}
+
 }
